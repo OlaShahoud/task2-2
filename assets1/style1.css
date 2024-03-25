@@ -1,0 +1,195 @@
+  /************all style*************/
+  
+  * {
+      padding: 0;
+      margin: 0;
+  }
+  /*********style nav********/
+  
+  .nav {
+      height: 6vh;
+      display: flex;
+      color: white;
+      background-color: black;
+      display: flex;
+      align-items: center;
+  }
+  
+  .nav1 {
+      display: flex;
+      width: 100%;
+      list-style-type: none;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+  
+  .nav1 li:hover {
+      background-color: #ece5e5;
+      padding: 1rem;
+      border-radius: 50%;
+      color: black;
+  }
+  /*style one section hero*/
+  
+  .hero {
+      background-image: url(/assets1/img/coffeehouse.jpg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60vh;
+  }
+  /*style Title*/
+  
+  .hero h1 {
+      font-size: 4rem;
+      color: white;
+  }
+  
+  .cafe {
+      display: block;
+  }
+  /********style  section 1 About**********/
+  
+  .section1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 3rem 10rem;
+      background-color: #ece5e5;
+  }
+  
+  .section1 .p {
+      width: min-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  /*style title section 1 About*/
+  
+  .title2 {
+      background-color: black;
+      color: white;
+      width: max-content;
+      margin-bottom: 2rem;
+      padding: 0px 8px;
+  }
+  
+  .section1 div p {
+      margin: 1rem;
+  }
+  /*style box paragraf section 1 About*/
+  
+  .paragraf {
+      background-color: #eee;
+      padding: 15px 20px;
+      border-left: 7px solid rgb(150, 149, 149);
+  }
+  /*style  paragraf under img section 1 About*/
+  
+  .bb {
+      font-weight: 800;
+      font-size: 1.2rem;
+      margin-left: -15px;
+  }
+  /**********style  menu section************/
+  /*style  menu__button  */
+  
+  .menu__button {
+      padding: 5px 10px;
+      box-shadow: 1px 1px 5px 2px rgb(148, 148, 148);
+  }
+  
+  .menu__button button {
+      width: 25vw;
+      height: 3vh;
+      border: none;
+      background-color: white;
+  }
+  
+  .button {
+      background-color: rgb(61, 54, 54)!important;
+      color: white;
+  }
+  /*style menu__paragraf */
+  
+  .menu__paragraf {
+      box-shadow: 1px 1px 5px 2px rgb(148, 148, 148);
+      padding: 5px 10px;
+      margin-top: 8px;
+      width: 63%;
+      margin-bottom: 4rem;
+  }
+  /*style paragraf for menu__paragraf */
+  
+  .menu__paragraf h4 {
+      margin-top: 30px;
+  }
+  
+  .menu__paragraf p {
+      margin: 20px 0px 50px 0px!important;
+  }
+  /*style map for menu__paragraf */
+  
+  .map {
+      width: 60rem;
+  }
+  
+  .find .o {
+      margin-left: -45rem;
+      margin-bottom: 15px;
+      margin-top: 25px;
+  }
+  
+  .oo {
+      margin-left: -35rem;
+      margin-top: 15px;
+  }
+  
+  .ooo {
+      width: 70%;
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+  
+  .fyi {
+      background-color: black;
+      color: white;
+      padding: 5px;
+  }
+  
+  .oo {
+      margin-top: 5px;
+      margin-bottom: 15px;
+  }
+  
+  .find input {
+      width: 70%;
+      margin: 5px;
+      height: 2rem;
+      color: black;
+      padding: 4px;
+  }
+  
+  .find input:focus {
+      background-color: #d1c7c7;
+      outline: none;
+      border: 0;
+      color: black;
+  }
+  
+  .find button {
+      margin-left: -52rem;
+      background-color: black;
+      color: white;
+      width: max-content;
+      padding: 10px;
+      margin-top: 5px;
+  }
+  
+  .find button:hover {
+      box-shadow: 0px 0px 20px black;
+      border: 4px solid #35e986;
+      background-color: white;
+      color: black;
+  }
